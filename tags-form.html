@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEGUNDO RETO</title>
+</head>
+<body>
+    <h1>ETIQUETAS DE FORMULARIO</h1>
+
+    <section>
+        <article>
+            <h2>form</h2>
+            <p>Representa un formulario, consistiendo de controles que puede ser enviado a un servidor para el procesamiento de los datos ingresados</p>
+        </article>
+        <article>
+            <h2>label</h2>
+            <p>Representa el título de un control de formulario</p>
+        </article>
+        <article>
+            <h2>input</h2>
+            <p>Representa un campo de datos escrito que permite al usuario modificarlos</p>
+        </article>
+        <article>
+            <h2>select</h2>
+            <p>Representa un control que permite la selección entre un conjunto de opciones</p>
+        </article>
+        <article>
+            <h2>option</h2>
+            <p>representa una opción dentro de un elemento "select"</p>
+        </article>
+        <article>
+            <h2>button</h2>
+            <p>Representa un botón</p>
+        </article>
+        <article>
+            <h2>textarea</h2>
+            <p>Representa un área o espacio donde se puede escribir texto en un determinado número de carácteres</p>
+        </article>
+        <article>
+            <h2>ejemplo</h2>
+            <form action="ejemplo.php" method="GET">
+                <div>
+                    <label for="texto1">Nombre:</label>
+                    <input type="text" placeholder="*este campo es obligatorio" required id="texto1">
+                </div>
+                <div>
+                    <label for="texto2">Apellido:</label>
+                    <input type="text" placeholder="*este campo es obligatorio" required id="texto2">
+                </div>
+                <div>
+                    <label for="textopais">Residencia</label>
+                    <select name="opciones de país" id="textopais" required>
+                        <option value="BR">Brasil</option>
+                        <option value="PE">Peru</option>
+                        <option value="AR">Argentina</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="coments">Comentarios</label>
+                    <br>
+                    <textarea name="comments" id="coments" cols="30" rows="10" placeholder="déjanos tu opinión"></textarea>
+                </div>
+                <div>
+                    <button>ENVIAR</button>
+                </div>
+            </form>
+        </article>
+    </section>
+    
+</body>
+</html>
