@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>TERCER RETO</title>
+</head>
+<body>
+    <h1>FORMULARIO TERCER RETO</h1>
+    <div>
+        <form action="ejemplo3" method="GET">
+            <div class="box">
+                <label for="nombre">Nombre:</label>
+                <input class="red" type="text" placeholder="*este campo es obligatorio" required id="nombre">
+            </div>
+            <div class="box">
+                <label for="apellido">Apellido:</label>
+                <input class="red" type="text" placeholder="*este campo es obligatorio" required id="apellido">
+            </div>
+            <div class="box">
+                <label for="edad">Edad:</label>
+                <input type="number" required id="edad" min="18" max="80">
+            </div>
+            <div class="box">
+                <label for="dni">DNI:</label>
+                <input class="red" type="text" required placeholder="*este campo es obligatorio" minlength="8">
+            </div>
+            <div class="box">
+                <label for="email">Correo Electronico:</label>
+                <input type="email" required placeholder="*este campo es obligatorio" >
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.red:focus {
+    color:red;
+    background-color: seashell;
+}
+.box {
+    padding-block: 20px;
+    margin-left: 20px;
+    border: red;
+}
